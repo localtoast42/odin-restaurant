@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: aqua;
+    background-color: gray;
+    padding: 10px 0 0 0;
 }
 
 nav {
@@ -15,11 +16,16 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    padding: 0;
+    padding: 0px 10px;
+    gap: 6px;
+    margin: 0;
 }
 
 li {
     padding: 5px 10px;
     font-size: 20px;
     font-weight: 700;
+    border: 2px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: beige;
 }
