@@ -1,3 +1,3 @@
-import { createHome } from "../home";
+import { createHome } from "./home";
 
 createHome();
