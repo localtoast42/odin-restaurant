@@ -7,12 +7,15 @@ body {
 
 header {
     background-color: gray;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
     height: 60px;
+    width: 800px;
 }
 
 ul {
